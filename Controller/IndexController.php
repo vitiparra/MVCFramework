@@ -5,9 +5,6 @@ class IndexController extends Controller{
 	}
 	
 	function index($parametro=false){
-		echo "<br/>Ejecutando método por defecto";
-		if($parametro){
-			echo " con el parámetro $parametro";
-		}
+		$this->view->render("index/index");
 	}
 }
