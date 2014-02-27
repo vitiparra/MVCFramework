@@ -5,6 +5,6 @@ class IndexController extends Controller{
 	}
 	
 	function index($parametro=false){
-		$this->view->render("index/index");
+		$this->view->render("index/index"); 
 	}
 }
