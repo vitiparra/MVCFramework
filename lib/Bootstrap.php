@@ -1,6 +1,7 @@
 <?php
 class Bootstrap{
 	function __construct(){
+	
 		if(!isset($_GET["url"])){
 			$clase = "IndexController";
 			require_once "Controller/" . $clase . ".php";
@@ -24,6 +25,7 @@ class Bootstrap{
 		}
 		else{
 			echo "No se puede procesar esta URL"; // Aquí se redigirá a una página 404 o a la home
+			return false;
 		}
 		// La segunda parte, si existe, corresponde al método que queremos ejecutar
 		if(count($args) > 0){
