@@ -1,8 +1,3 @@
-<html>
-<head>
-	<title>T&iacute;tulo de la p&aacute;gina</title>
-</head>
-<body>
+<?php include_once("View/header.php"); ?>
 	Texto de la p&aacute;gina index
-</body>
-</html>
+<?php include_once("View/footer.php"); ?>
