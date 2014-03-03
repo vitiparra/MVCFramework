@@ -1,9 +1,9 @@
 <?php 
 // This all will be into an autoloader
 require_once("config/config.php");
-require_once("lib/Bootstrap.php");
-require_once("lib/Controller.php");
-require_once("lib/View.php");
+require_once(ROOT . "lib/Bootstrap.php");
+require_once(ROOT . "lib/Controller.php");
+require_once(ROOT . "lib/View.php");
 
 try{
 	$app = new Bootstrap();
