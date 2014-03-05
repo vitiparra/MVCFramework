@@ -10,7 +10,7 @@
 ?>
 
 <?php include_once("View/header.php"); ?>
-Este texto es nuevo <br/>
+Este texto es nuevo <br/> 
 Texto de la p&aacute;gina index
 <script>
     cargarBloque("categoria", "divCatalogo");
