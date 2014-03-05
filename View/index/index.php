@@ -12,7 +12,7 @@
 <?php include_once("View/header.php"); ?>
 Texto de la p&aacute;gina index
 <script>
-    cargarBloque("catalogo", "divCatalogo");
+    cargarBloque("categoria", "divCatalogo");
 </script>
 
 <div id="divCatalogo"></div>
