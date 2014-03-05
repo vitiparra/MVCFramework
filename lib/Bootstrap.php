@@ -19,8 +19,6 @@ class Bootstrap{
 		$nombre = ucfirst(strtolower($nombre));
 		$clase = $nombre . "Controller";
                 $modelo = $nombre . "Model";
-	        echo "Cargando Controlador $clase<br/>";
-	        echo "Cargando Model $modelo<br/>";
 
                 $path = PATH_CONTROLLER . $clase . ".php";
 		if(file_exists($path) && is_readable($path)) {
