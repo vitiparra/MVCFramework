@@ -7,8 +7,8 @@ require_once(ROOT . "lib/Controller.php");
 require_once(ROOT . "lib/View.php");
 
 try{
-	$app = new Bootstrap();
+    $app = new Bootstrap();
 }
 catch(Exception $e){
-	echo $e->getMessage();
+    echo $e->getMessage();
 }

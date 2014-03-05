@@ -12,5 +12,5 @@ define('DB_CHAR', 'utf8');
 
 define('PATH_MODEL', 'Model/');
 define('PATH_VIEW', 'View/');
-define('PATH_CONTROLLER', 'Cntroller/');
+define('PATH_CONTROLLER', 'Controller/');
 define('PATH_LIB', 'lib/');
