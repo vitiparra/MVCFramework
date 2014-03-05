@@ -11,8 +11,11 @@ class Controller{
             require $ruta;
             $this->model = new $modelo();
         }
+/*       
+ * Maybe a Controller does not have a Model associated 
         else{
             throw new Exception("No accesible $modelo")
         }
+ */
     }
 }

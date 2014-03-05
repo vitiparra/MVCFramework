@@ -22,8 +22,9 @@ class Bootstrap{
 	        echo "Cargando Controlador $clase<br/>";
 	        echo "Cargando Model $modelo<br/>";
 
-		if(file_exists("Controller/" . $clase . ".php") && is_readable("Controller/" . $clase . ".php")) {
-			require_once "Controller/" . $clase . ".php";
+                $path = PATH_CONTROLLER . $clase . ".php";
+		if(file_exists($path) && is_readable($path)) {
+			require_once $path;
 			$controller = new $clase;
                         $controller->loadModel($modelo);
 		}
